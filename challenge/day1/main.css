@@ -22,15 +22,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-image: linear-gradient(to top right, #43399F, #4DC3C9);
     background-color: transparent;
 }
 
 .hundred {
-    width: 350px;
-    height: 130px;
+    width: 70%;
+    height: 26%;
     margin-bottom: 5px;
 }
 
@@ -38,7 +38,7 @@ body {
     display: inline-block;
     position: relative;
     z-index: 15;
-    width: 80px;
+    width: 23.53%;
     height: 100%;
 }
 
@@ -47,7 +47,7 @@ body {
     top: 0;
     left: 10%;
     width: 60%;
-    height: 23px;
+    height: 20px;
     transform-origin: top right;
     transform: rotate(-45deg);
     box-shadow: 0 0 5px #606060;
@@ -71,8 +71,8 @@ body {
     position: relative;
     z-index: 12;
     display: inline-block;
-    width: 130px;
-    height: 130px;
+    width: 104px;
+    height: 100%;
     margin-left: -10px;
     box-shadow: 0 0 5px #606060;
     border: 25px solid white;
@@ -89,12 +89,12 @@ body {
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 40px;
+    font-size: 31px;
     font-weight: 100;
 }
 
 .text>.big {
-    font-size: 120px;
+    font-size: 94px;
     font-weight: bold;
     line-height: 79%;
 }
