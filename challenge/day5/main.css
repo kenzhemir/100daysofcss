@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: #42a7a1;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color: #f1ba64;
+}
+
+.header>* {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.col-left {
+    text-align: left;
+}
+
+.col-left> :first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.col-left> :last-child {
+    font-size: 12px;
+}
+
+.col-right {
+    text-align: right;
+}
+
+.col-right> :first-child {
+    font-size: 12px;
+}
+
+.content {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    padding: 17px 5px;
+}
+
+.legend {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    width: 50%;
+    font-size: 9px;
+    color: #555;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.legend__item {
+    display: inline-block;
+}
+
+.chart {
+    position: relative;
+}
+
+.data {
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    height: 80px;
+}
+
+.line1,
+.line2,
+.line3 {
+    width: 100%;
+    height: 0px;
+    border-top: 1px solid #ccc;
+}
+
+.line1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.line2 {
+    margin-bottom: 40px;
+}
+
+.line3 {
+    margin-bottom: 16px;
+}
+
+.weekdays {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #888;
+    width: 100%;
+}
+
+.red-graph,
+.blue-graph {
+    height: 40px;
+}
+
+.red-graph>path,
+.blue-graph>path {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.blue-graph>path {
+    stroke: #7ba2ff;
+}
+
+.blue-graph>circle {
+    fill: #7ba2ff;
+}
+
+.red-graph>path {
+    stroke: #FA7373;
+}
+
+.red-graph>circle {
+    fill: #FA7373;
+}
